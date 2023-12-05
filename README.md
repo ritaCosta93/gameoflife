@@ -13,7 +13,6 @@ This project is a simulation of Conway's Game of Life, a cellular automaton devi
    - [Grid.js](#gridjs)
    - [GridDrawer.js](#griddrawerjs)
    - [Rules.js](#rulesjs)
-   - [Food.js](#foodjs)
 4. [Rules](#rules)
 5. [Contributing](#contributing)
 6. [License](#license)
