@@ -2,6 +2,8 @@
 
 This project is a simulation of Conway's Game of Life, a cellular automaton devised by mathematician John Conway. The simulation allows you to observe the evolution of a grid of cells based on simple rules.
 
+![Game Of Life](./screenshot.png)
+
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
