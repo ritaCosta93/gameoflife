@@ -84,18 +84,6 @@ The `Rules` class contains the logic for applying the rules of Conway's Game of 
 - `getLastActiveTime(cellValue)`: Retrieves the last active time for a live cell.
 - `isInactive(lastActiveTime, currentTime)`: Checks if a live cell is inactive for a specified period.
 
-### Food.js
-
-**Purpose:**
-The `Food` class manages the state and behavior of food in the grid.
-
-**Attributes:**
-- `foodLocations`: An array storing the locations of food squares in the grid.
-
-**Methods:**
-- `updateFoodState(grid)`: Updates the state of food based on the grid's state.
-- `getFoodLocations()`: Returns the current locations of food squares.
-
 ## Rules
 
 The rules of Conway's Game of Life are as follows:
