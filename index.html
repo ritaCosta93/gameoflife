@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life Simulation</title>
+</head>
+<style>
+    body{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+</style>
+<body>
+    <h1>Game of Life</h1>
+    <canvas id="myCanvas"></canvas>
+    <div id="generationCount"></div>
+    <script type="module" src="./Generations.js"></script>
+    <script type="module">
+        import { Generations } from './Generations.js';
+        const generations = new Generations(70, 180, 5, 1);
+        generations.runGenerations();
+    </script>
+</body>
+</html>
